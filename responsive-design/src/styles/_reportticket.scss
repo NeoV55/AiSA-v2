@@ -1,0 +1,133 @@
+.ticket-submit-page {
+  padding: 20px;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .page-layout {
+    display: flex;
+    gap: 20px;
+
+    .chat-window {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      h2 {
+        margin-bottom: 10px;
+        color: #007bff;
+      }
+
+      .chat-box {
+        max-height: 300px;
+        overflow-y: auto;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background: #f9f9f9;
+
+        .chat-message {
+          margin-bottom: 10px;
+          padding: 10px;
+          border-radius: 5px;
+
+          &.bot {
+            background-color: #e7f1ff;
+          }
+
+          &.user {
+            background-color: #dfffd7;
+            text-align: right;
+          }
+
+          strong {
+            display: block;
+            font-weight: bold;
+          }
+        }
+      }
+
+      .chat-input-form {
+        display: flex;
+        gap: 10px;
+
+        input {
+          flex: 1;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+        }
+
+        button {
+          padding: 10px 20px;
+          border: none;
+          background: #007bff;
+          color: #fff;
+          border-radius: 5px;
+          cursor: pointer;
+
+          &:hover {
+            background: #0056b3;
+          }
+        }
+      }
+    }
+
+    .ticket-form {
+      flex: 2;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      h2 {
+        margin-bottom: 20px;
+        color: #007bff;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+
+        label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+        }
+
+        textarea {
+          resize: none;
+          height: 80px;
+        }
+      }
+
+      .submit-btn {
+        padding: 10px 20px;
+        border: none;
+        background: #28a745;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background: #218838;
+        }
+      }
+    }
+  }
+}

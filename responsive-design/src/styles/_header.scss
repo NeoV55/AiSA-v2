@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-medium);
+  background-color: var(--primary-color);
+  color: white;
+  flex-wrap: wrap;
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+  }
+
+  &__nav ul {
+    display: flex;
+    gap: var(--space-medium);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+    gap: var(--space-small);
+    margin-left: var(--space-medium);
+
+    &-input {
+      padding: var(--space-small);
+      border: none;
+      border-radius: var(--border-radius);
+    }
+
+    &-button {
+      padding: var(--space-small) var(--space-medium);
+      border: none;
+      border-radius: var(--border-radius);
+      background-color: var(--secondary-color);
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: (var(--secondary-color), 10%);
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: var(--space-small);
+    margin-left: var(--space-medium);
+
+    &-link {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: var(--space-small);
+    margin-left: var(--space-medium);
+
+    .button {
+      padding: var(--space-small) var(--space-medium);
+      border: none;
+      border-radius: var(--border-radius);
+      background-color: white;
+      color: var(--primary-color);
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: var(--secondary-color);
+        color: white;
+      }
+    }
+
+    .button--secondary {
+      background-color: var(--secondary-color);
+      color: white;
+
+      &:hover {
+        background-color: (var(--secondary-color), 10%);
+      }
+    }
+  }
+}

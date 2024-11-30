@@ -1,0 +1,222 @@
+$primary-color: #3a8cfc;
+$secondary-color: #e5e9f2;
+$background-color: #f5f6f8;
+$border-color: #ddd;
+$btn-hover-color: #2c75d3;
+
+.control-panel {
+  .panel {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    
+    h2 {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      color: #333;
+    }
+  }
+
+  /* User Management Styling */
+  .user-management {
+    .user-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      
+      .user-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 10px;
+        border: 15px solid #ccc;
+        border-radius: 15px;
+        background-color: #fff;
+        
+        span {
+          font-size: 1rem;
+          color: #333;
+        }
+        
+        button {
+          padding: 5px 10px;
+          font-size: 0.9rem;
+          margin-left: 5px;
+          cursor: pointer;
+          border: none;
+          border-radius: 5px;
+          background-color: #ff5757;
+          color: white;
+          &:hover {
+            background-color: #ff3b3b;
+          }
+        }
+      }
+    }
+  }
+
+  /* News Management Styling */
+  .news-management {
+    .news-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 20px;
+      
+      input, textarea {
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        
+        &:focus {
+          border-color: #0056b3;
+        }
+      }
+
+      button {
+        padding: 10px 15px;
+        font-size: 1rem;
+        border: none;
+        background-color: #28a745;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          background-color: #218838;
+        }
+      }
+    }
+  }
+}
+
+
+.control-panel {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+  padding: 20px;
+  background-color: $background-color;
+
+  .control-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .panel {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+  
+  .panel h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .news-form, .database-update input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+
+  .panel {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid $border-color;
+
+    h2 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin-right: 10px;
+      border: none;
+      background-color: $primary-color;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: $btn-hover-color;
+      }
+
+      &:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+
+    .user-item,
+    .post-item,
+    .news-item {
+      display: flex;
+      justify-content: safe;
+      align-items: center;
+      margin-bottom: 15px;
+      border-bottom: 15px solid $border-color;
+      padding-bottom: 15px;
+      
+      span {
+        font-size: 1rem;
+        color: #555;
+      }
+
+      button {
+        margin-left: 10px;
+      }
+    }
+
+    .user-item {
+      background-color: $secondary-color;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .post-item {
+      background-color: #fafafa;
+      padding: 10px;
+      border-radius: 15px;
+    }
+
+    .news-item {
+      background-color: #fdfdfd;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+}

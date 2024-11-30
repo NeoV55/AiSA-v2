@@ -1,0 +1,421 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "8374",
+      "name": "Test",
+      "email": "Test@Test.com",
+      "password": "123"
+    },
+    {
+      "id": "25ca",
+      "name": "Tester",
+      "email": "Tester@Tester.com",
+      "password": "Tester"
+    },
+    {
+      "id": "891a",
+      "name": "Test3",
+      "email": "Test3@Test3.com",
+      "password": "123"
+    }
+  ],
+  "data": [
+    {
+      "type": "business",
+      "value": "Eagle Aeronautics (M) Sdn Bhd (796603-A)",
+      "entity_name": "Eagle Aeronautics (M) Sdn Bhd (796603-A)",
+      "match_score": 84,
+      "frequency_score": 3,
+      "complaint_count": 2,
+      "id": "7898"
+    },
+    {
+      "type": "business",
+      "value": "Future Trade Indojaya Sdn Bhd (1003327-P)",
+      "entity_name": "Future Trade Indojaya Sdn Bhd (1003327-P)",
+      "match_score": 91,
+      "frequency_score": 5,
+      "complaint_count": 3,
+      "id": "0850"
+    },
+    {
+      "type": "account",
+      "value": "0011223344",
+      "entity_name": "ABC Ltd.",
+      "match_score": 82,
+      "frequency_score": 3,
+      "complaint_count": 2,
+      "id": "9af5"
+    },
+    {
+      "type": "account",
+      "value": "9876543210",
+      "entity_name": "FraudCo",
+      "match_score": 96,
+      "frequency_score": 5,
+      "complaint_count": 3,
+      "id": "ce9f"
+    },
+    {
+      "type": "phone",
+      "value": "5551234567",
+      "entity_name": "XYZ Ltd.",
+      "match_score": 80,
+      "frequency_score": 4,
+      "complaint_count": 2,
+      "id": "84a6"
+    },
+    {
+      "type": "account",
+      "value": "1100332233",
+      "entity_name": "Global Peace Loving Family",
+      "match_score": 85,
+      "frequency_score": 4,
+      "complaint_count": 1,
+      "id": "f08e"
+    },
+    {
+      "type": "phone",
+      "value": "4411223344",
+      "entity_name": "Greenmillion Agrosolution Enterprise",
+      "match_score": 82,
+      "frequency_score": 2,
+      "complaint_count": 0,
+      "id": "d0f9"
+    }
+  ],
+  "news": [
+    {
+      "news_id": 1,
+      "user": "JohnDoe",
+      "category": "Finance",
+      "title": "Suspicious company spotted",
+      "content": "This company has been involved in fraud cases.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9i23UIt3VXVzJDcU8V0dHykhIO0DhiuEn_A&s",
+      "reads": 200,
+      "id": "9a41"
+    },
+    {
+      "news_id": 2,
+      "user": "JaneSmith",
+      "category": "Technology",
+      "title": "AI Revolution in the Tech Industry",
+      "content": "The impact of AI in reshaping the future of technology.",
+      "image": "https://via.placeholder.com/150",
+      "reads": 500,
+      "id": "f53e"
+    },
+    {
+      "news_id": 3,
+      "user": "AlexP",
+      "category": "Health",
+      "title": "Breakthrough in Cancer Research",
+      "content": "Scientists have developed a promising new treatment for cancer.",
+      "image": "https://via.placeholder.com/150",
+      "reads": 350,
+      "id": "16e0"
+    },
+    {
+      "id": "m448lz3k",
+      "news_id": 1732975066352,
+      "user": "Admin",
+      "category": "Custom",
+      "title": "New Post",
+      "content": "This is a new post.",
+      "image": "https://via.placeholder.com/150",
+      "reads": 0
+    },
+    {
+      "id": "m448yrz7",
+      "news_id": 1732975663651,
+      "user": "Admin",
+      "category": "Custom",
+      "title": "New Post",
+      "content": "This is a new post.",
+      "image": "https://via.placeholder.com/150",
+      "reads": 0
+    },
+    {
+      "id": "m448zueg",
+      "news_id": 1732975713448,
+      "user": "Admin",
+      "category": "Custom",
+      "title": "New Post",
+      "content": "This is a new post.",
+      "image": "https://via.placeholder.com/150",
+      "reads": 0
+    },
+    {
+      "id": "m448zuvk",
+      "news_id": 1732975714064,
+      "user": "Admin",
+      "category": "Custom",
+      "title": "New Post",
+      "content": "This is a new post.",
+      "image": "https://via.placeholder.com/150",
+      "reads": 0
+    },
+    {
+      "id": "m448zvhq",
+      "news_id": 1732975714862,
+      "user": "Admin",
+      "category": "Custom",
+      "title": "New Post",
+      "content": "This is a new post.",
+      "image": "https://via.placeholder.com/150",
+      "reads": 0
+    },
+    {
+      "id": "m4496l0o",
+      "news_id": 1732976027880,
+      "user": "Admin",
+      "category": "Customdsdsdsdsdsds",
+      "title": "sdsds",
+      "content": "dsdsds",
+      "image": "https://via.placeholder.com/150",
+      "reads": 0
+    },
+    {
+      "id": "m449v26g",
+      "news_id": 1732977169864,
+      "user": "Admin",
+      "category": "Custom",
+      "title": "",
+      "content": "",
+      "image": "https://via.placeholder.com/150",
+      "reads": 0
+    }
+  ],
+  "tickets": [
+    {
+      "id": "C101",
+      "caseId": "C101",
+      "victimName": "Ahmad Zahari",
+      "contact": "60123456789",
+      "email": "ahmadz@example.com",
+      "caseDescription": "Lost RM5000 in a fake investment by Instaforex.",
+      "companyName": "Instaforex",
+      "phone": "60198765432",
+      "accountNumber": "123456789012",
+      "status": "Open",
+      "updates": [
+        "Initial case created.",
+        "Investigating the company.",
+        "sdsdsdds",
+        "dsdsdsds",
+        "sdsdsdsdsd"
+      ],
+      "chatHistory": [
+        {
+          "sender": "Victim",
+          "message": "I invested and now they are unreachable."
+        },
+        {
+          "sender": "Officer",
+          "message": "We have noted your complaint and are investigating."
+        },
+        {
+          "sender": "Officer",
+          "message": "sdsdsdsd"
+        },
+        {
+          "sender": "Officer",
+          "message": "sdsdsd"
+        }
+      ]
+    },
+    {
+      "id": "6825",
+      "victimName": "ccc",
+      "contact": "ccccc",
+      "email": "ccccc@dddd.com",
+      "caseDescription": "cccc",
+      "companyName": "cccc",
+      "phone": "cccc",
+      "accountNumber": "cccc",
+      "caseId": "C1732960091625",
+      "status": "Open",
+      "updates": [
+        "Initial case created.",
+        "dssdsds"
+      ],
+      "chatHistory": [
+        {
+          "sender": "Officer",
+          "message": "sdsdsds"
+        }
+      ]
+    },
+    {
+      "id": "f77f",
+      "victimName": "cvfv",
+      "contact": "fvfxf",
+      "email": "ccccc@dddd.com",
+      "caseDescription": "vfxfvdfvdf",
+      "companyName": "vdfvdfvdfvd",
+      "phone": "vdfvdfvdfd",
+      "accountNumber": "dfvdfvdfvdf",
+      "caseId": "C1732961706703",
+      "status": "Open",
+      "updates": [
+        "Initial case created.",
+        "vfdvdfvdfvdddf"
+      ],
+      "chatHistory": [
+        {
+          "sender": "Support Bot",
+          "message": "Hello! How can I assist you today?"
+        },
+        {
+          "sender": "User",
+          "message": "I need help with a service issue."
+        },
+        {
+          "sender": "Support Bot",
+          "message": "Sure, please provide some details."
+        },
+        {
+          "sender": "User",
+          "message": "cvvcfx"
+        },
+        {
+          "sender": "User",
+          "message": "vxcx"
+        },
+        {
+          "sender": "Officer",
+          "message": "dfvfdgvfdddfdf"
+        }
+      ]
+    }
+  ],
+  "Social": [
+    {
+      "id": "5970",
+      "user": "SitiHana",
+      "title": "Scam alert: JTGold",
+      "content": "JTGold is running a fake gold investment scheme. Be cautious.",
+      "likes": 13,
+      "dislikes": 5,
+      "comments": [
+        {
+          "user": "AliFikri",
+          "content": "I lost RM2000 with them. Never again!"
+        },
+        {
+          "user": "Zarina",
+          "content": "These scams are getting worse."
+        },
+        {
+          "user": "Anonymous",
+          "content": "xcxcxxcx"
+        },
+        {
+          "user": "Anonymous",
+          "content": "dsdsds"
+        }
+      ]
+    },
+    {
+      "id": "a60d",
+      "user": "ccxxcx",
+      "title": "xcxcxxc",
+      "content": "xcxcxcx",
+      "likes": 6,
+      "dislikes": 4,
+      "comments": [
+        {
+          "user": "Anonymous",
+          "content": "cxxcxcxcxcx"
+        },
+        {
+          "user": "Anonymous",
+          "content": "zxzxzxz"
+        },
+        {
+          "user": "Anonymous",
+          "content": "dsdss"
+        }
+      ]
+    },
+    {
+      "id": "1732966758100",
+      "user": "cxxcxc",
+      "title": "xcxcxc",
+      "content": "xcxcxcx",
+      "likes": 0,
+      "dislikes": 0,
+      "ai_score": 51,
+      "comments": []
+    }
+  ],
+  "dashboardData": {
+    "riskyEntities": [
+      {
+        "entity": "Instaforex",
+        "reports": 150
+      },
+      {
+        "entity": "JTGold",
+        "reports": 90
+      },
+      {
+        "entity": "XYZTrading",
+        "reports": 70
+      }
+    ],
+    "scamVsUser": {
+      "scammers": 1200,
+      "users": 3000
+    },
+    "industries": {
+      "Finance": 60,
+      "Real Estate": 20,
+      "Tech": 10,
+      "Other": 10
+    },
+    "dailyScamRate": 75,
+    "victimTypes": [
+      {
+        "type": "Investors",
+        "count": 50
+      },
+      {
+        "type": "Shoppers",
+        "count": 30
+      },
+      {
+        "type": "Job Seekers",
+        "count": 20
+      }
+    ],
+    "scamVsAge": [
+      {
+        "ageGroup": "18-25",
+        "scams": 30
+      },
+      {
+        "ageGroup": "26-35",
+        "scams": 50
+      },
+      {
+        "ageGroup": "36-50",
+        "scams": 70
+      },
+      {
+        "ageGroup": "50+",
+        "scams": 40
+      }
+    ],
+    "genderStats": {
+      "Male": 60,
+      "Female": 40
+    }
+  }
+}

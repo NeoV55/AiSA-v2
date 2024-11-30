@@ -1,0 +1,93 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333; 
+  }
+
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); // Adjust columns to fit
+    gap: 20px;
+    justify-content: space-between; // Space between items
+    align-items: start;
+  }
+
+  .dashboard-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 300px; // Fix height for uniformity (adjustable)
+
+    h3 {
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    canvas {
+      max-height: 220px; // Restrict chart size
+    }
+  }
+
+  .risky-entities-table {
+    width: 100%;
+    height: 220px; // Fit within the grid item
+    overflow: auto; // Scrollable for large data
+
+    th,
+    td {
+      padding: 8px;
+      border: 1px solid #ccc;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background-color: #ddd;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+
+  .gauge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation-tabs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+  
+    button {
+      background-color: #ffffff;
+      color: #333;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        background-color: #f1f1f1;
+        border-color: #bbb;
+      }
+  
+      &:active {
+        background-color: #e2e2e2;
+      }
+    }
+  }  
+}

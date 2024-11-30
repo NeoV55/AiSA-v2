@@ -1,0 +1,36 @@
+// Responsive Breakpoints
+$breakpoints: (
+  "xs": 0,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px
+);
+
+@mixin respond($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+// Grid System
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(-1 * var(--space-medium));
+}
+
+.col {
+  padding: 0 var(--space-medium);
+  flex: 1 0 100%;
+
+  @include respond(md) {
+    flex: 0 0 calc(50% - var(--space-medium));
+  }
+
+  @include respond(lg) {
+    flex: 0 0 calc(33.333% - var(--space-medium));
+  }
+}

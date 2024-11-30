@@ -1,0 +1,110 @@
+.user-settings-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  
+    .page-title {
+      text-align: center;
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .settings-section {
+      margin-bottom: 30px;
+  
+      .section-title {
+        font-size: 22px;
+        color: #007bff;
+        margin-bottom: 15px;
+      }
+  
+      .setting-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+  
+        span {
+          font-size: 16px;
+          color: #555;
+        }
+  
+        .status {
+          font-weight: bold;
+          &.active {
+            color: #28a745;
+          }
+          &.inactive {
+            color: #dc3545;
+          }
+        }
+  
+        .toggle-btn {
+          background: #007bff;
+          color: #fff;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 5px;
+          cursor: pointer;
+  
+          &:hover {
+            background: #0056b3;
+          }
+        }
+      }
+  
+      .password-change-form {
+        margin-top: 20px;
+  
+        h3 {
+          font-size: 18px;
+          color: #555;
+          margin-bottom: 10px;
+        }
+  
+        .form-group {
+          margin-bottom: 15px;
+  
+          label {
+            display: block;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+          }
+  
+          input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+  
+            &:focus {
+              border-color: #007bff;
+              outline: none;
+            }
+          }
+        }
+  
+        .submit-btn {
+          background: #007bff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+  
+          &:hover {
+            background: #0056b3;
+          }
+        }
+      }
+    }
+  }
+  

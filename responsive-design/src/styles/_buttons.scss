@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  padding: var(--space-small) var(--space-medium);
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color, #3498db); // Fallback color
+  color: white;
+  font-size: var(--font-size);
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+
+  &:hover,
+  &:focus {
+    background-color: darken(#3498db, 10%); // Use fallback directly
+  }
+
+  &:active {
+    background-color: darken(#3498db, 15%);
+  }
+
+  &--secondary {
+    background-color: var(--secondary-color, #2ecc71);
+
+    &:hover {
+      background-color: darken(#2ecc71, 10%);
+    }
+  }
+}

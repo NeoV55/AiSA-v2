@@ -1,0 +1,90 @@
+.help-desk-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  
+    .form-title {
+      text-align: center;
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      .form-group {
+        margin-bottom: 15px;
+  
+        label {
+          display: block;
+          font-weight: bold;
+          color: #555;
+          margin-bottom: 5px;
+        }
+  
+        input,
+        select,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          font-size: 14px;
+          &:focus {
+            border-color: #007bff;
+            outline: none;
+          }
+        }
+      }
+  
+      .form-actions {
+        text-align: center;
+        .submit-btn {
+          background: #007bff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          &:hover {
+            background: #0056b3;
+          }
+        }
+      }
+    }
+  
+    .direct-contact {
+      margin-top: 30px;
+      text-align: center;
+  
+      h3 {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 10px;
+      }
+  
+      .contact-btn {
+        display: inline-block;
+        background: #28a745;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 14px;
+        margin: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background: #218838;
+        }
+      }
+    }
+  }
+  
