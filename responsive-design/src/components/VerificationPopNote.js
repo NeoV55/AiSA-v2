@@ -15,7 +15,7 @@ const VerificationPopNote = ({ details, onVerify }) => {
       <>
         {/* Trigger Button */}
         <Button onClick={() => setIsOpen(true)} className="pop-note-trigger">
-          UIX Data
+          Demo Data For Testing
         </Button>
   
         {/* Pop Note Modal */}

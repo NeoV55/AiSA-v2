@@ -15,6 +15,7 @@ import Map from './components/MapPage';
 import Help from './components/HelpDeskForm';
 import Settings from './components/UserSettingsPage';
 import SignOut from './components/SignOutPage';
+import VictimSupport from './components/VictimSupportPage';
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
             <Route path="/help" element={<Help />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/signout" element={<SignOut />} />
+            <Route path="/vsupport" element={<VictimSupport />} />
           </Routes>
         <Footer />
       </div>

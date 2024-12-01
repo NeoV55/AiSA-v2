@@ -19,6 +19,8 @@ const Footer = () => {
         <div className="footer__section">
           <h4>Sitemap</h4>
           <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/vsupport">Victim Support</a></li>
             <li><a href="/">AiSA: Your Online Guardian</a></li>
             <li><a href="/dashboard">NFCC Dashboard</a></li>
             <li><a href="/cpanel">NFCC cPanel</a></li>

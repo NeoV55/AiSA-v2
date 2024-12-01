@@ -108,6 +108,19 @@ const VerificationPage = () => {
         <button type="submit" className="btn-primary">
           Verify
         </button>
+
+        <div className="form-group">
+          <label>Enter Website Link</label>
+          <input
+            type="text"
+            placeholder={`Enter website or hyperlink`}
+          />
+        </div>
+
+        <button type="submit" className="btn-primary">
+          Check
+        </button>
+
       </form>
 
       {status === 'loading' && <p>Verifying...</p>}
