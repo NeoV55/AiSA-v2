@@ -44,8 +44,17 @@ const MapPage = () => {
     <div className="map-page">
       <h1 className="map-title">Welcome to AiSA</h1>
       <h1 className="map-title">Artificial Intelligence Scam Alert & Prevention Systems</h1>
-      
 
+      {/* Horizontal Moving List */}
+      <div className="moving-list">
+        <div className="ticker">
+          {mockScamData.map((scam) => (
+            <span key={scam.id} className="ticker-item">
+              {scam.company}
+            </span>
+          ))}
+        </div>
+      </div>
 
       <MapContainer
         center={[3.1489, 101.6941]}
