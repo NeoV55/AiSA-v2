@@ -22,6 +22,7 @@
   }, 
   "scripts": {
     "dev": "concurrently \"cd .. && cd backend && npm install -g json-server && json-server --watch db.json --port 5000\" \"npm run start\"",
+    "server": "cd .. && cd backend && npm install -g json-server && json-server --watch db.json --port 5000",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
